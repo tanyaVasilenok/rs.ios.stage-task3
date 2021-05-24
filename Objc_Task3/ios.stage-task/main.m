@@ -25,6 +25,9 @@ int main(int argc, char * argv[]) {
         
         LevelOrderTraversalForTree(@[@4,@2,@1,[NSNull null],[NSNull null],@3,[NSNull null],[NSNull null],@7,@5,[NSNull null],@6,[NSNull null],[NSNull null],@8]);
         
+        NSArray *binaryTreeRawData = @[@4,@2,@1,[NSNull null],[NSNull null],@3,[NSNull null],[NSNull null],@7,@5,[NSNull null],@6,[NSNull null],[NSNull null],@8];
+            
+        NSLog(@"end");
         
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
     }
